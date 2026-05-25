@@ -184,8 +184,9 @@
   /* WORKS */
   .works-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:42px}
   .work{border-radius:var(--radius);overflow:hidden;box-shadow:var(--sticker);background:#fff;border:3px solid var(--ink)}
-  .work .thumb{aspect-ratio:16/10;display:grid;place-items:center;color:#fff;font-weight:800;
+  .work .thumb{aspect-ratio:16/10;display:grid;place-items:center;color:#fff;font-weight:800;overflow:hidden;
     background:linear-gradient(135deg,var(--teal),var(--blue))}
+  .work .thumb img{width:100%;height:100%;object-fit:cover;display:block}
   .work:nth-child(2) .thumb{background:linear-gradient(135deg,var(--coral),var(--yellow))}
   .work:nth-child(3) .thumb{background:linear-gradient(135deg,var(--purple),var(--pink))}
   .work .cap{padding:18px 20px}
@@ -427,13 +428,13 @@
   <div class="wrap center">
     <div class="eyebrow">结课你能带走</div>
     <h2 class="sec">每个孩子都是一位小导演</h2>
-    <p class="sec-sub">下方为作品展示位（学员真实作品上线后替换）。</p>
+    <p class="sec-sub">下方为作品风格示意图，真实学员成片陆续上线替换。</p>
     <div class="works-grid">
-      <div class="work"><div class="thumb">🎬 学员作品占位</div>
+      <div class="work"><div class="thumb"><img src="assets/works/work1.jpg" alt="《我的奇幻宠物》奇幻冒险短剧画面"></div>
         <div class="cap"><h4>《我的奇幻宠物》</h4><p>9 岁 · 奇幻冒险短剧</p></div></div>
-      <div class="work"><div class="thumb">🎬 学员作品占位</div>
+      <div class="work"><div class="thumb"><img src="assets/works/work2.jpg" alt="《太空快递员》科幻喜剧短剧画面"></div>
         <div class="cap"><h4>《太空快递员》</h4><p>12 岁 · 科幻喜剧短剧</p></div></div>
-      <div class="work"><div class="thumb">🎬 学员作品占位</div>
+      <div class="work"><div class="thumb"><img src="assets/works/work3.jpg" alt="《转学第一天》校园温情短剧画面"></div>
         <div class="cap"><h4>《转学第一天》</h4><p>14 岁 · 校园温情短剧</p></div></div>
     </div>
   </div>

@@ -3,3 +3,4 @@ gen_poster.log
 last_task.json
 *.log
 .gstack/
+gen_works.py
