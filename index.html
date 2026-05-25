@@ -227,8 +227,8 @@
   .fact span{font-size:.82rem;opacity:.85;display:block}
   .fact b{font-size:1.15rem}
   .qr-card{background:#fff;color:var(--ink);border-radius:var(--radius);padding:28px;text-align:center;box-shadow:var(--shadow)}
-  .qr{width:170px;height:170px;margin:14px auto;border-radius:18px;
-    background:repeating-conic-gradient(var(--ink) 0% 25%, #fff 0% 50%) 0 0/30px 30px;opacity:.9}
+  .qr{width:200px;height:200px;margin:14px auto;border-radius:18px;display:block;
+    background:#fff;padding:8px;object-fit:contain;border:2px solid var(--line)}
   .qr-card .btn{margin-top:8px}
   .note{font-size:.8rem;color:var(--ink-soft);margin-top:10px}
 
@@ -501,9 +501,9 @@
     </div>
     <div class="qr-card">
       <h3>扫码咨询 / 报名</h3>
-      <div class="qr"></div>
+      <img class="qr" src="assets/wechat-qr.png" alt="微信扫码添加咨询报名">
       <a href="#" class="btn">在线预约名额</a>
-      <p class="note">报名二维码 / 联系方式占位<br>（请替换为真实微信或电话）</p>
+      <p class="note">微信扫码 / 长按识别，添加老师咨询与报名</p>
     </div>
   </div>
 </section>
