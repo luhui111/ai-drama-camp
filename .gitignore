@@ -2,3 +2,4 @@ gen_poster.sh
 gen_poster.log
 last_task.json
 *.log
+.gstack/
